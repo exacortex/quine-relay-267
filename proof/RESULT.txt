@@ -1,0 +1,6 @@
+PASSED
+image CMD: ["/bin/sh","-c","make check -j 10000"]
+build: 79.9 min (no cache, fresh ubuntu:26.04)
+make check: 23.9 min
+image id: sha256:fd722d9bc7cc78325c229d902f66348b4ac93828d4bbf6a39ded5f6684f084d6
+QR.rb sha256: e96516bb0a3eb73e6f6163d8c93bf7725394c6b419dfe2d072f3e9f1d531c701
