@@ -1,4 +1,8 @@
-# Quine Relay 267
+# Quine Relay 267 *(Superseded Stepping Stone)*
+
+> [!NOTE]
+> **Superseded by [exacortex/quine-relay-256](https://github.com/exacortex/quine-relay-256).**
+> This 267-step build was an intermediate milestone. The final, strictly audited release is **[exacortex/quine-relay-256](https://github.com/exacortex/quine-relay-256)** — exact **256 steps = 256 distinct languages** (dropping Tier 2 completely, restoring all 123 single-implementation `mame-128` languages including verbatim zero-`fopen` `Scilab -> sed -> Shakespeare -> S-Lang`, adding **Malbolge Unshackled**, replacing all custom mock interpreters with canonical upstream tools, and eliminating every remaining corner cut).
 
 **A 267-step quine relay across 257 distinct programming languages, built under Yusuke Endoh's no-cheating rules and verified from a clean Ubuntu 26.04 Docker build.**
 It extends [Yusuke Endoh's Quine Relay](https://github.com/mame/quine-relay) (128 steps / 123 distinct languages) with 143 more steps (138 new distinct languages).
